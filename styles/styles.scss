@@ -1,0 +1,93 @@
+// Variables
+$primary-color: #EEE6DC;
+$secondary-color: #95918A;
+$font-color: #95918A;
+$background-color: #F9F3E9;
+
+// Base styles
+body {
+    font-family: Arial, sans-serif;
+    color: $font-color;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: $primary-color;
+    color: $background-color;
+
+    .logo {
+        font-size: 1.5rem;
+
+        img {
+            width: 4.5rem;
+            margin: 0;
+        }
+    }
+
+    .language-switch {
+        background-color: $secondary-color;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        border-radius: 3rem;
+    }
+}
+
+// nav {
+//     background-color: $secondary-color;
+//     ul {
+//         display: flex;
+//         list-style-type: none;
+//         margin: 0;
+//         padding: 0;
+
+//         li {
+//             margin: 0 1rem;
+
+//             a {
+//                 color: $background-color;
+//                 text-decoration: none;
+//             }
+//         }
+//     }
+// }
+
+.banner {
+    background-color: $primary-color;
+    color: $background-color;
+    text-align: center;
+    padding: rem 0;
+
+    h1 {
+        margin: 0;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.info {
+    padding: 2rem;
+
+    .address, .map, .details, .images {
+        margin-bottom: 1rem;
+    }
+
+    .map-pin-icon {
+        // Add icon styles here
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    color: $background-color;
+    text-align: center;
+    padding: 1rem;
+}
