@@ -81,6 +81,7 @@ header .language-switch:hover:before {
 .info .address, .info .map, .info .details, .info .images {
   margin-bottom: 1rem;
 }
+
 footer {
   background-color: #EEE6DC;
   color: #000;
